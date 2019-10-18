@@ -322,7 +322,7 @@
       <pattern>UKM</pattern>
       <template>
          Berikut merupakan Daftar UKM di IT Telkom Purwokerto.
-         $1. UKM Bulu Tangkis
+         %1. UKM Bulu Tangkis
          2. UKM Bola Basket
          3. UKM Tennis Meja
          4. UKM Jujitsu
@@ -383,7 +383,7 @@
       <pattern>fasilitas</pattern>
       <template>
          Berikut merupakan Fasilitas yang disediakan IT Telkom Purwokerto.
-         $1. Ruang Kelas Full AC
+         %1. Ruang Kelas Full AC
          2. Laboratorium Bahasa dan Multimedia
          3. Laboratorium Teknik Elektronika
          4. Laboratorium Audio Video
@@ -445,7 +445,7 @@
       <pattern>kontak</pattern>
       <template>
          Berikut merupakan Alamat dan Kontak IT Telkom Purwokerto.
-         $Kawasan Pendidikan Telkom Jl. DI. Panjaitan No. 128 Purwokerto 53147, Jawa Tengah 
+         %Kawasan Pendidikan Telkom Jl. DI. Panjaitan No. 128 Purwokerto 53147, Jawa Tengah 
          Fan Page: It Telkom Purwokerto
          Instagram: @join_ittp 
          Line ID: @join_ittp 

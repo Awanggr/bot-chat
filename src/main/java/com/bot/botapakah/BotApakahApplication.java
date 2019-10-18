@@ -55,14 +55,7 @@ import org.alicebot.*;
 @SpringBootApplication
 @LineMessageHandler
 public class BotApakahApplication extends SpringBootServletInitializer {
-
-    String pesan_dikirim="";
-    String pesan_dua="";
-    String gambar="";
-    String pesan2="";
     String id="";
-    String ya="";
-    String pesan_tutup="\n\nJika tidak ada hal lain yang ingin ditanyakan silahkan balas atau ketik 'Terima Kasih' tanpa petik.";
 
     @Autowired
     private LineMessagingClient lineMessagingClient;
@@ -76,10 +69,6 @@ public class BotApakahApplication extends SpringBootServletInitializer {
         SpringApplication.run(BotApakahApplication.class, args);
     }
 
-    // public static String charRemoveAt(String str, int p) {  
-    //     return str.substring(0, p) + str.substring(p + 1);  
-    //  }
-
     @EventMapping
     //Handling penerima text dari user
     public void handleTextEvent(MessageEvent<TextMessageContent> messageEvent){
@@ -87,25 +76,25 @@ public class BotApakahApplication extends SpringBootServletInitializer {
         id = messageEvent.getSource().getUserId();//Mengambil id user pengirim
         String replyToken = messageEvent.getReplyToken();//Mengambil token
 
-        Bot bot = new Bot("simplebot","libs/");
-        Chat chatSession = new Chat(bot);
+        Bot bot = new Bot("simplebot","libs/");//memanggil bot
+        Chat chatSession = new Chat(bot);//membuat session untuk bot
         
-        String response = chatSession.multisentenceRespond(pesan);
-        String responsenospace = response.replaceAll("\\s\\s\\s\\s\\s\\s\\s\\s\\s\\s", "\n");
-        String responseenter = responsenospace.replaceAll("%", "\n");
-        String[] arrOfStr = responseenter.split("#", 2);
+        String response = chatSession.multisentenceRespond(pesan);//mengirimkan pesan dari LINE untuk diproses bot
+        String responsenospace = response.replaceAll("\\s\\s\\s\\s\\s\\s\\s\\s\\s\\s", "\n");//merubah hasiljawaban dari bot untuk dirapikan
+        String responseenter = responsenospace.replaceAll("%", "\n");//merubah % menjadi /n utnuk memberikan space enter
+        String[] arrOfStr = responseenter.split("#", 2);//melakukan pemisahan kata dengan # untuk link gambar
 
-        if(arrOfStr.length==2){
-            if(!arrOfStr[1].equals(null)){
-                balasChatGambar(replyToken, arrOfStr[0], arrOfStr[1]);
+        if(arrOfStr.length==2){//pengecekan apakah terdapat 2 kata
+            if(!arrOfStr[1].equals(null)){//jika kata ke 2 tidak kosong maka kata tersebut merupakan link gambar
+                balasChatGambar(replyToken, arrOfStr[0], arrOfStr[1]);//mengirim balasan dengan isian kata dan link gambar
             }
         }else{
-            balasChat(replyToken, responseenter);
+            balasChat(replyToken, responseenter);//jikahanya ada 1 kata maka akan dikirim sebagai balasan biasa
         }
         
     }
 
-    private void balasChat(String replyToken, String jawaban){
+    private void balasChat(String replyToken, String jawaban){//fungsi untuk mengirim balsan biasa
         TextMessage jawabanDalamBentukTextMessage = new TextMessage(jawaban);
         try {
             lineMessagingClient
@@ -116,7 +105,7 @@ public class BotApakahApplication extends SpringBootServletInitializer {
         }
     }
 
-    private void balasChatGambar(String replyToken, String jawaban, String gambar){
+    private void balasChatGambar(String replyToken, String jawaban, String gambar){//fungsi untuk mengirim balasan gambar
         TextMessage jawabanDalamBentukTextMessage = new TextMessage(jawaban);
         ImageMessage jawabanDenganGambar = new ImageMessage(gambar, gambar);
         List<Message> multipesan=new ArrayList<>();
