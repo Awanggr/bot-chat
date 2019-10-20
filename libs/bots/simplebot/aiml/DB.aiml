@@ -10,7 +10,7 @@
    </category>
 
    <category>
-      <pattern>Kapan buka pendaftaran *</pattern>
+      <pattern>buka pendaftaran *</pattern>
       <template>
          Jika yang anda maksud mendaftar secara online, berikut hasilnya.
    
