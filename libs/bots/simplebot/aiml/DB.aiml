@@ -10,6 +10,15 @@
    </category>
 
    <category>
+      <pattern>Kapan dibukanya pendaftaran *</pattern>
+      <template>
+         Jika yang anda maksud mendaftar secara online, berikut hasilnya.
+   
+         <srai>cara mendaftar * it telkom * online</srai>
+      </template>
+   </category>
+
+   <category>
       <pattern>cara daftar *</pattern>
       <template>
          Jika yang anda maksud mendaftar secara online, berikut hasilnya.
