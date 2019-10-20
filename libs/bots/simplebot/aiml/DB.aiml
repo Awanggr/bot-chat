@@ -1,12 +1,6 @@
 <?xml version = "1.0" encoding = "UTF-8"?>
 <aiml version="2.0">
 
-   <category>
-      <pattern>mencoba benar</pattern>
-      <template>
-      wisuda 2019
-      </template>
-   </category>
    <!-- Pertanyaan ke 1 -->
    <category>
       <pattern>cara mendaftar * it telkom * online</pattern>
