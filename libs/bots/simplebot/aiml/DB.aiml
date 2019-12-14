@@ -100,7 +100,7 @@
    </category>
 
    <category>
-      <pattern>*daftar*</pattern>
+      <pattern>* daftar *</pattern>
       <template>
             Jika yang anda maksud mendaftar secara online, berikut hasilnya.
       
@@ -109,7 +109,7 @@
    </category>
 
    <category>
-      <pattern>daftar*</pattern>
+      <pattern>daftar *</pattern>
       <template>
             Jika yang anda maksud mendaftar secara online, berikut hasilnya.
       
@@ -118,7 +118,7 @@
    </category>
 
    <category>
-      <pattern>*daftar</pattern>
+      <pattern>* daftar</pattern>
       <template>
             Jika yang anda maksud mendaftar secara online, berikut hasilnya.
       
@@ -126,6 +126,14 @@
       </template>
    </category>
    
+   <category>
+      <pattern>daftar</pattern>
+      <template>
+            Jika yang anda maksud mendaftar secara online, berikut hasilnya.
+      
+         <srai>cara mendaftar * it telkom * online</srai>
+      </template>
+   </category>
    
 <!-- Pertanyaan ke 2 -->
 
