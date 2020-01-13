@@ -231,6 +231,33 @@
          Untuk program studi di it telkom purwokerto terdapat 8 program studi, untuk lebih jelasnya bisa dilihat di gambar dibawah.#https://i.ibb.co/NmzqQbL/programstudi.png
       </template>
    </category>
+
+   <category>
+      <pattern> program studi * </pattern>
+      <template>
+         Jika yang anda maksud apa saja program studi di IT Telkom, berikut hasilnya.
+
+         <srai>* program studi *  </srai>
+      </template>
+   </category>
+
+   <category>
+      <pattern> program studi * </pattern>
+      <template>
+         Jika yang anda maksud apa saja program studi di IT Telkom, berikut hasilnya.
+
+         <srai>* program studi *  </srai>
+      </template>
+   </category>
+
+   <category>
+      <pattern>* program studi </pattern>
+      <template>
+         Jika yang anda maksud apa saja program studi di IT Telkom, berikut hasilnya.
+
+         <srai>* program studi *  </srai>
+      </template>
+   </category>
    <!-- apa saja Program studi di it telkom purwokerto ?/ jurusannya apa saja?/ apa saja jurusannya? Apa saja program studinya?apa saja Program studi di it telkom purwokerto ?/ jurusannya apa saja?/ apa saja jurusannya? Apa saja program studinya? -->
    <!-- Pertanyaan ke 4 -->
    <category>
@@ -475,6 +502,16 @@
          <srai>fasilitas</srai>
       </template>
    </category>
+
+   <category>
+      <pattern>* fasilitas</pattern>
+      <template>
+         Jika yang anda maksud Fasilitas yang disediakan IT Telkom, berikut hasilnya.
+         
+         <srai>fasilitas</srai>
+      </template>
+   </category>
+
    <category>
       <pattern>kelengkapan  *</pattern>
       <template>
@@ -577,9 +614,117 @@
          <srai>kontak</srai>
       </template>
    </category>
+
    <!-- lamat kamus dimana?/ Lokasi kampus dimana ?/ posisi kampus dimana? -->
    <!-- Pertanyaan ke 10 -->
+   <!-- Pattern sesuai skripsi-->
+   <category>
+      <pattern>pendaftaran it telkom</pattern>
+      <template>
+         Jika yang anda maksud mendaftar secara online, berikut hasilnya.
    
+         <srai>cara mendaftar * it telkom * online</srai>
+      </template>
+   </category>
+
+   <category>
+      <pattern>kapan dibukanya pendaftaran it telkom</pattern>
+      <template>
+         Jika yang anda maksud mendaftar secara online, berikut hasilnya.
+   
+         <srai>cara mendaftar * it telkom * online</srai>
+      </template>
+   </category>
+
+   <category>
+      <pattern>bagaimana alur pendaftaran di it telkom purwokerto</pattern>
+      <template>
+         Jika yang anda maksud mendaftar secara online, berikut hasilnya.
+   
+         <srai>cara mendaftar * it telkom * online</srai>
+      </template>
+   </category>
+
+   <category>
+      <pattern>bagaimana tahap seleksi di it telkom</pattern>
+      <template>
+         Jika yang anda maksud tahapan seleksi, berikut hasilnya.
+
+         <srai>tahapan seleksi </srai>
+      </template>
+   </category>
+
+   <category>
+      <pattern>tahapan seleksi seperti apa untuk masuk it telkom</pattern>
+      <template>
+         Jika yang anda maksud tahapan seleksi, berikut hasilnya.
+
+         <srai>tahapan seleksi </srai>
+      </template>
+   </category>
+
+   <category>
+      <pattern>bagaimana tahapan seleksinya</pattern>
+      <template>
+         Jika yang anda maksud tahapan seleksi, berikut hasilnya.
+
+         <srai>tahapan seleksi </srai>
+      </template>
+   </category>
+
+   <category>
+      <pattern>visi dan misi it telkom</pattern>
+      <template>
+         Jika yang anda maksud visi dan misi IT Telkom, berikut hasilnya.
+         
+         <srai>visi misi</srai>
+      </template>
+   </category>
+
+   <category>
+      <pattern>apa visi misi it telkom</pattern>
+      <template>
+         Jika yang anda maksud visi dan misi IT Telkom, berikut hasilnya.
+         
+         <srai>visi misi</srai>
+      </template>
+   </category>
+
+   <category>
+      <pattern>apa visi dan misi it telkom purwokerto</pattern>
+      <template>
+         Jika yang anda maksud visi dan misi IT Telkom, berikut hasilnya.
+         
+         <srai>visi misi</srai>
+      </template>
+   </category>
+
+   <category>
+      <pattern>apa saja ukm di it telkom</pattern>
+      <template>
+         Jika yang anda maksud Daftar UKM di IT Telkom, berikut hasilnya.
+         
+         <srai>UKM</srai>
+      </template>
+   </category>
+
+   <category>
+      <pattern>ukm apa saja yang ada di it telkom</pattern>
+      <template>
+         Jika yang anda maksud Daftar UKM di IT Telkom, berikut hasilnya.
+         
+         <srai>UKM</srai>
+      </template>
+   </category>
+
+   <category>
+      <pattern>ukm apa saja yang ada di it telkom purwokerto</pattern>
+      <template>
+         Jika yang anda maksud Daftar UKM di IT Telkom, berikut hasilnya.
+         
+         <srai>UKM</srai>
+      </template>
+   </category>
    <!-- Tempat Umum Institut Teknologi Telkom Purwokerto Terdekat?/ fasilitas terdekat/ apa saja yang di sekitar kampus?  -->
    <category>
       <pattern>*</pattern>
