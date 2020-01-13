@@ -495,7 +495,7 @@
       </template>
    </category>
    <category>
-      <pattern>fasilitas *</pattern>
+      <pattern>silit*</pattern>
       <template>
          Jika yang anda maksud Fasilitas yang disediakan IT Telkom, berikut hasilnya.
          
