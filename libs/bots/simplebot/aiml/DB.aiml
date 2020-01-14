@@ -459,7 +459,7 @@
       </template>
    </category>
    <category>
-      <pattern>* ukm *</pattern>
+      <pattern>ukm *</pattern>
       <template>
          Jika yang anda maksud Daftar UKM di IT Telkom, berikut hasilnya.
          
