@@ -134,6 +134,24 @@
          <srai>cara mendaftar * it telkom * online</srai>
       </template>
    </category>
+
+   <category>
+      <pattern>kapan * pendaftaran *</pattern>
+      <template>
+            Jika yang anda maksud mendaftar secara online, berikut hasilnya.
+      
+         <srai>cara mendaftar * it telkom * online</srai>
+      </template>
+   </category>
+
+   <category>
+      <pattern>* pendaftaran *</pattern>
+      <template>
+            Jika yang anda maksud mendaftar secara online, berikut hasilnya.
+      
+         <srai>cara mendaftar * it telkom * online</srai>
+      </template>
+   </category>
    
 <!-- Pertanyaan ke 2 -->
 
@@ -495,7 +513,7 @@
       </template>
    </category>
    <category>
-      <pattern>silit*</pattern>
+      <pattern>fasilitas *</pattern>
       <template>
          Jika yang anda maksud Fasilitas yang disediakan IT Telkom, berikut hasilnya.
          
