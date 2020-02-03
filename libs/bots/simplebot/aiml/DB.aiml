@@ -10,7 +10,7 @@
    </category>
 
    <category>
-      <pattern>daftarnya *</pattern>
+      <pattern>gimana daftarnya *</pattern>
       <template>
          Jika yang anda maksud mendaftar secara online, berikut hasilnya.
    
