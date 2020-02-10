@@ -2,6 +2,13 @@
 <aiml version="2.0">
 
    <!-- Pertanyaan ke 1 -->
+    <category>
+      <pattern>halo</pattern>
+      <template>
+         halo juga
+      </template>
+   </category>
+
    <category>
       <pattern>cara mendaftar * it telkom * online</pattern>
       <template>
